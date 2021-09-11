@@ -1,0 +1,28 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	color: #FFFFFE;
+	font-size: 20px;
+	line-height: 32px;
+	background-color: #25272E;
+	font-weight: 400;
+}
+
+/* Utility */
+.none {
+	display: none !important;
+}
+
+.visually-hidden {
+	opacity: 0;
+	visibility: hidden;
+	width: 0px;
+	height: 0px;
+	display: block;
+	margin-left: -10000px;
+	background: transparent;
+	font-size: 0;
+}
