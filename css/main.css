@@ -9,10 +9,23 @@
 .header {
   padding-top: 68px;
   margin-bottom: 160px;
+  position: relative;
 }
 
 .header a {
   color: #DFDDDD;
+}
+
+.header__leaf {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.header__lemon {
+  position: absolute;
+  left: 0;
+  top: 600px;
 }
 
 .header__navigation {
@@ -192,17 +205,33 @@
   position: static;
 }
 
-/* card */
+/* about */
 
 .about {
   margin-bottom: 160px;
+  position: relative;
+}
+
+.about__cola {
+  position: absolute;
+  right: 0;
+  top: 60px;
 }
 
 .about__inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
+
+.about__leaf {
+  position: absolute;
+  left: -35px;
+  top: -35px;
+  z-index: -2;
+}
+
 
 .about__img {
   width: 498px;
@@ -331,6 +360,13 @@
 
 .discount {
   margin-bottom: 160px;
+  position: relative;
+}
+
+.about__hotdog {
+  position: absolute;
+  top: -250px;
+  left: 0;
 }
 
 .discount__inner {
@@ -339,6 +375,19 @@
   width: 100%;
   text-align: center;
   align-items: center;
+  position: relative;
+}
+
+.discount__leaf1 {
+  position: absolute;
+  right: 0;
+  top: -115px;
+}
+
+.discount__leaf2 {
+  position: absolute;
+  left: -170px;
+  bottom: -50px;
 }
 
 .discount__title {
@@ -381,6 +430,13 @@
 .delivery {
   text-align: center;
   margin-bottom: 66px;
+  position: relative;
+}
+
+.delivery__tomato {
+  position: absolute;
+  right: 0;
+  top: -160px;
 }
 
 .delivery a {
@@ -560,13 +616,30 @@
 
 
 .delivery__inner .slick-list {
-  padding: 175px 0 0;
+  padding: 200px 0 0;
 }
 
 /* app */
 
 .app {
   margin-bottom: 160px;
+  position: relative;
+}
+
+.app__leaf {
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+}
+
+.app .container {
+  position: relative;
+}
+
+.app__lemon {
+  position: absolute;
+  right: -170px;
+  top: -160px;
 }
 
 .app__inner {
@@ -593,6 +666,13 @@
 
 .footer {
   margin-bottom: 80px;
+  position: relative;
+}
+
+.footer__hamburger {
+  position: absolute;
+  right: 0;
+  bottom: 5px;
 }
 
 .footer__inner {
